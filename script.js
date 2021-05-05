@@ -5,8 +5,8 @@ let country = {
   name: "england",
   population: 1000,
   sea: true,
-  language: "english",
-  bio: function () {
+  language: "english"
+  bio = function () {
 
     /*here I have created a function named 'bio', that shows ashort bio of the object country, JS objects can have functions themselves */
 
@@ -14,6 +14,7 @@ let country = {
   }   
 
 }
+
 
 bio();
 
